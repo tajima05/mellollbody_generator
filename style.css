@@ -1,0 +1,42 @@
+/* 背景とフォント */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  background: linear-gradient(135deg, #fef6ff, #e8f8ff);
+  color: #444;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+/* タイトル */
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #6c3d9d;
+  line-height: 1.4;
+}
+
+/* 出力エリア */
+.output {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 1.5em;
+  min-height: 2em;
+}
+
+/* ボタン */
+button {
+  font-size: 1.2em;
+  padding: 0.6em 1.2em;
+  background: #ffddf4;
+  border: none;
+  border-radius: 1em;
+  box-shadow: 0 4px #dcb0e3;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #ffd0f0;
+  transform: translateY(-1px);
+}
